@@ -36,3 +36,11 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
+
+gem "rspec-rails", ">= 2.12.2", :group => [:development, :test]
+gem "database_cleaner", ">= 0.9.1", :group => :test
+gem "email_spec", ">= 1.4.0", :group => :test
+gem "bootstrap-sass", ">= 2.2.2.0"
+gem "devise", ">= 2.2.3"
+gem "devise_invitable", ">= 1.1.5"
+gem "simple_form", ">= 2.0.4"
